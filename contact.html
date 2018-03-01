@@ -8,7 +8,7 @@
     <body>
         <nav>
             <h1 class="name">John Woltz</h1>
-            <div class= "nav-links">
+            <div class= "nav-links-wrapper">
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
@@ -21,10 +21,18 @@
             <div class="main-content">
                 <h1 class="main-content-header">Contact</h1>
                <form>
+                   <p>First Name:</p>
                    <input type="text" value="First Name" name="first-name"> <br>
+
+                   <p>Last Name:</p>
                    <input type="text" value="Last Name" name="last-name"> <br>
-                   <input type="text" name="message">
+
+                   <p>Message:</p>
+                   <textarea name="message" class="message"></textarea>
                </form>
+
+              
+               <button type="button">Submit</button>
             </div>
 
             <div class="sidebar">
@@ -36,8 +44,9 @@
         </div>
         <div class ="clearfix"></div>
 
+        <div class="filler"></div>
         <footer>
-
+            <p id="copyright">Copyright John Woltz</p>
         </footer>
     </body>
 </html>

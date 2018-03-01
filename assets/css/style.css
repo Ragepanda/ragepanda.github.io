@@ -32,10 +32,11 @@ nav{
 }
 
 h1, h2{
-    font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
     border-bottom: 5px solid rgba(128, 123, 123, 0.253);
     margin: 10px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h1{
@@ -52,18 +53,19 @@ h2{
     width: 960px;
     margin-top: 50px;
     margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 .main-content{
     width: 650px;
     float: left;
     background-color: #ffffff;
-    border: 2px solid #cccccc
+    border: 2px solid #cccccc;
 }
 
-.main-content img{
+.about-me-pic{
     float: left;
-    margin: 15px;
+    margin: 25px;
 }
 
 .sidebar{
@@ -103,4 +105,66 @@ p{
     content: "";
     clear: both;
     display: table;
+}
+
+#copyright{
+    text-align:center;
+}
+
+.portfolio-container{
+    position: relative;
+    text-align: center;
+    width: 265px;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+}
+
+.portfolio{
+    position: relative;
+    width: 100%;
+} 
+
+.portfolio-text{
+    position: absolute;
+    height:25px;
+    bottom: 50px;
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 265px;
+    height: 40px;
+    padding-top:25px;
+}
+
+input{
+    width: 550px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.message{
+    height: 300px;
+    width: 550px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+button{
+    margin-left: 50px;
+    padding: 15px;
+    background-color:#4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    border: 0px;
+    line-height: 36px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.filler{
+    width:100%;
+    height: 250px;
 }
